@@ -1,11 +1,11 @@
 {
   "name": "api-node-express",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch server.js"
+    "dev": "node --watch src/server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,8 @@
   "description": "",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.10.1"
   }
 }
